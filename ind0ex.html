@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nexora App</title>
+</head>
+<body>
+  <h1>Welcome to Nexora App</h1>
+  <p>This is your test page.</p>
+
+  <!-- Firebase CDN -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js"></script>
+
+  <script>
+    // Firebase config
+    const firebaseConfig = {
+      apiKey: "AIzaSyC7FPLLh8npk2OPWDs_uXEbI1BJeu1U3kM",
+      authDomain: "nexora-569bb.firebaseapp.com",
+      projectId: "nexora-569bb",
+      storageBucket: "nexora-569bb.appspot.com",
+      messagingSenderId: "638025275317",
+      appId: "1:638025275317:web:b8666eb6473b8b686febfc",
+      measurementId: "G-28LFMR7603"
+    };
+
+    // Initialize Firebase
+    const app = firebase.initializeApp(firebaseConfig);
+    const analytics = firebase.getAnalytics(app);
+  </script>
+</body>
+</html>
